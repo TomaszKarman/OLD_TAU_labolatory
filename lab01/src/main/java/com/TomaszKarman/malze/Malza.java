@@ -1,4 +1,4 @@
-package com.TomaszKarman.malze;
+package java.com.TomaszKarman.malze;
 
 public class Malza {
 
