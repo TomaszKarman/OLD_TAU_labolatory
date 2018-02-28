@@ -1,4 +1,4 @@
-package com.TomaszKarman.malze;
+import package com.TomaszKarman.malze;
 
 import org.junit.Assert.*;
 import java.util.ArrayList;
