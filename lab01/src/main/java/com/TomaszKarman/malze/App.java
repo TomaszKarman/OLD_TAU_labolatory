@@ -1,7 +1,7 @@
-package java.com.TomaszKarman.malze;
+package com.TomaszKarman.malze;
 
 
-import java.com.TomaszKarman.malze.Malza;
+import com.TomaszKarman.malze.Malza;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
