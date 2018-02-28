@@ -14,9 +14,9 @@ class CheckMalzaTest {
         malze.add(malza2);
 
         Integer quantity = malze.size();
-        //Enum status = malza2.getStatus();
+        Enum status = malza2.getStatus();
         assertNotNull(malza2);
-        //assertEquals(status, Malza.Status.Dead);
+        assertEquals(status, Malza.Status.Dead);
         assertEquals(quantity, 2);
     }
 }
