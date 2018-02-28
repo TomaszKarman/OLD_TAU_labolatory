@@ -1,6 +1,7 @@
-import package com.TomaszKarman.malze;
+package java.com.TomaszKarman.malze;
 
-import org.junit.Assert.*;
+import java.com.TomaszKarman.malze;
+import static org.junit.Assert.*;
 import java.util.ArrayList;
 import java.util.List;
 import org.junit.Test;
