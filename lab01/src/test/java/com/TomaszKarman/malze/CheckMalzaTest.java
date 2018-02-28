@@ -4,12 +4,12 @@ import static org.junit.Assert.*;
 import java.util.ArrayList;
 import java.util.List;
 import org.junit.Test;
-
+/*
 class CheckMalzaTest {
     @Test
     public void testCheckMalza() {
-        Malza malza1 = new Malza("Czesiu",3);
-        Malza malza2 = new Malza("Zbychu", 7);
+        Malza malza3 = new Malza("Czesiu",3);
+        Malza malza4 = new Malza("Zbychu", 7);
         List<Malza> malze = new ArrayList<Malza>();
         malze.add(malza1);
         malze.add(malza2);
@@ -21,3 +21,4 @@ class CheckMalzaTest {
         assertEquals(quantity, 2);
     }
 }
+*/
