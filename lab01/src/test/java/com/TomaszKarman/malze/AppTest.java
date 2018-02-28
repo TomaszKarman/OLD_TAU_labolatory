@@ -13,7 +13,7 @@ class CheckMalzaTest {
         malze.add(malza1);
         malze.add(malza2);
 
-        Integer quantity = malze.size();
+        public Integer quantity = malze.size();
         public Enum status = malza2.getStatus();
         assertNotNull(malza2);
         assertEquals(status, Malza.Status.Dead);
