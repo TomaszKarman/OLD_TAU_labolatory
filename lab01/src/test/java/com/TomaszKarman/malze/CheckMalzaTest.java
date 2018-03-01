@@ -18,7 +18,7 @@ public class CheckMalzaTest {
         Integer quantity = malze.size();
         Enum status = malza4.getStatus();
         assertNotNull(malze);
-        //assertEquals(status, Malza.Status.Dead); //ZLA METODA DO TEGO
-        assertEquals(quantity, 2);
+        assertSame(status, Malza.Status.Dead); //ZLA METODA DO TEGO
+        assertEquals(quantity, Integer(2));
     }
 }
