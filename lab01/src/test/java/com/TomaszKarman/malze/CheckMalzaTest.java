@@ -1,5 +1,4 @@
-import com.TomaszKarman.malze;
-
+import com.TomaszKarman.malze.*;
 import static org.junit.Assert.*;
 import java.util.ArrayList;
 import java.util.List;
