@@ -12,11 +12,11 @@ public class CheckMalzaTest {
         Malza malza3 = new Malza("Czesiu",3);
         Malza malza4 = new Malza("Zbychu", 7);
         List<Malza> malze = new ArrayList<Malza>();
-        malze.add(malza1);
-        malze.add(malza2);
+        malze.add(malza3);
+        malze.add(malza4);
 
         Integer quantity = malze.size();
-        Enum status = malza2.getStatus();
+        Enum status = malza4.getStatus();
         assertNotNull(malze);
         assertEquals(status, Malza.Status.Dead);
         assertEquals(quantity, 2);
