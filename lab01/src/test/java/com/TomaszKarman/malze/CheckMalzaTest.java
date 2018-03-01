@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import org.junit.Test;
 
-class CheckMalzaTest {
+public class CheckMalzaTest {
     @Test
     public void testCheckMalza() {
         Malza malza3 = new Malza("Czesiu",3);
