@@ -1,9 +1,6 @@
 package com.TomaszKarman.malze;
 
-import com.TomaszKarman.malze.*;
 import static org.junit.Assert.*;
-import java.util.ArrayList;
-import java.util.List;
 import org.junit.Test;
 
 public class CheckMalzaTest {
@@ -12,7 +9,8 @@ public class CheckMalzaTest {
     public void testCheckMalza() {
         Malza malza3 = new Malza("Czesiu", 3);
         Malza malza4 = new Malza("Zbychu", 7);
-        Crud malze = new Crud();
+        Crud crud = new Crud();
+
 
         // kod z lab01 - zastapiony kodem z lab02
         /*malze.add(malza3);
@@ -26,11 +24,11 @@ public class CheckMalzaTest {
         assertEquals(quantity, test);
         */
 
-        assertTrue(malze.add(malza3));
-        assertTrue(malze.add(malza4));
-        assertTrue(malze.update(malza4));
-        assertEquals(malze.listaMalzy.get(1).getStatus(),Malza.Status.Live);
-        assertTrue(malze.remove(malza4));
-        assertEquals(1,malze.size());
+        assertTrue(crud.add(malza3));
+        assertTrue(crud.add(malza4));
+        assertTrue(crud.update(malza4));
+        assertEquals(crud.listaMalzy.get(1).getStatus(),Malza.Status.Live);
+        assertTrue(crud.remove(malza4));
+        assertEquals(1,crud.size());
     }
 }
