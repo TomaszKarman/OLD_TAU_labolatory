@@ -3,9 +3,10 @@ package com.TomaszKarman.malze;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
+import java.util.List;
+
 public class CheckMalzaTest {
 
-    @Test
     public void testCheckMalza() {
         Malza malza3 = new Malza("Czesiu", 3);
         Malza malza4 = new Malza("Zbychu", 7);
@@ -22,7 +23,7 @@ public class CheckMalzaTest {
         assertNotNull(malze);
         assertSame(status, Malza.Status.Dead); //ZLA METODA DO TEGO
         assertEquals(quantity, test);
-        */
+*/
 
         assertTrue(crud.add(malza3));
         assertTrue(crud.add(malza4));
@@ -30,5 +31,7 @@ public class CheckMalzaTest {
         assertEquals(crud.listaMalzy.get(1).getStatus(),Malza.Status.Live);
         assertTrue(crud.remove(malza4));
         assertEquals(1,crud.size());
+
     }
+
 }
