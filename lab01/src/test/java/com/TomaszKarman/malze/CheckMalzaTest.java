@@ -10,21 +10,22 @@ public class CheckMalzaTest {
     public void testCheckMalza() {
         Malza malza3 = new Malza("Czesiu", 3);
         Malza malza4 = new Malza("Zbychu", 7);
-        Crud crud = new Crud();
+        //Crud crud = new Crud();
 
 
-        // kod z lab01 - zastapiony kodem z lab02
-        /*malze.add(malza3);
+
+        malze.add(malza3);
         malze.add(malza4);
 
         Integer quantity = malze.size();
 	Integer test = 2;
         Enum status = malza4.getStatus();
         assertNotNull(malze);
-        assertSame(status, Malza.Status.Dead); //ZLA METODA DO TEGO
+        assertSame(status, Malza.Status.Dead);
         assertEquals(quantity, test);
-*/
 
+
+        /* CRUD NA DB
         assertTrue(crud.add(malza3));
         assertTrue(crud.add(malza4));
         assertTrue(crud.update(malza4));
